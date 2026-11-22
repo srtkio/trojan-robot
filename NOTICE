@@ -1,0 +1,12 @@
+TROJAN
+Copyright 2026 Sarthak Rai and Team Trojans
+
+This project is based on the Sesame Robot by Dorian (https://github.com/dorianborian/sesame-robot),
+licensed under the Apache License, Version 2.0.
+
+Changes from the original:
+- firmware/SesameRobot_Custom*: the original firmware adapted to our ESP32 DevKit pins, per-servo
+  safe angle limits and OLED pins, plus small fixes and extra moves.
+- firmware/TROJAN_Robot*: new firmware written from scratch (walking engine, moves, faces, web remote).
+- cad/sesame-esp32: the original Sesame ESP32 CAD, unchanged.
+- cad/experiments: our own scaled-up body experiment, not part of the original.

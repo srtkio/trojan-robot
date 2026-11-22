@@ -1,0 +1,10 @@
+In captive-portal.h, change the eight manual motor slider tags to these min/max values (leave the value=90 and oninput handler intact):
+
+R1: <input type="range" id="motor1" min="80" max="180" value="90" oninput="updateMotor(1, this.value)">
+R2: <input type="range" id="motor2" min="0" max="100" value="90" oninput="updateMotor(2, this.value)">
+L1: <input type="range" id="motor3" min="0" max="100" value="90" oninput="updateMotor(3, this.value)">
+L2: <input type="range" id="motor4" min="80" max="180" value="90" oninput="updateMotor(4, this.value)">
+R4: <input type="range" id="motor5" min="0" max="160" value="90" oninput="updateMotor(5, this.value)">
+R3: <input type="range" id="motor6" min="0" max="160" value="90" oninput="updateMotor(6, this.value)">
+L3: <input type="range" id="motor7" min="0" max="160" value="90" oninput="updateMotor(7, this.value)">
+L4: <input type="range" id="motor8" min="0" max="160" value="90" oninput="updateMotor(8, this.value)">
